@@ -214,18 +214,57 @@ Windowsストア・アプリは「Windowsストア」だけで配布される<br
 ---
 
 ## 利用できるAPI
+<br>
+
+* .NET Frameworkのクラス・ライブラリ（一部）
+
+* Windowsランタイムのクラス・ライブラリ
+
+* Win32 API（一部，COMやDirectXも含む）
+
+* JavaScript用Windowsライブラリ（WinJS）<br>
+DOM API（JavaScript専用）
 
 --
 
 ## 実行関連ファイル
+<br>
+
+* アプリ（.exe）<br>
+エクスプローラなどからは直接実行できない
+
+* クラス・ライブラリ<br>
+アプリ本体や他のライブラリから呼び出せるライブラリ
+
+* WinRTコンポーネント（.winmd）<br>
+JavaScriptからも利用できるライブラリや，バックグラウンド・
+タスク用の実行ファイルなどを実装する
+
+* PCL（.dll）<br>
+ポータブル・クラス・ライブラリ．<br>
+利用するAPIを制限した特殊なクラス・ライブラリ
 
 --
 
 ## 開発言語
+<br>
+
+* C#，VB.NET（XAML）<br>
+WinRT，.NET Framework　　　　　　　　<br>
+<br>
+* C++/CX（XAML）<br>
+WinRT，.NET Framework，Win32 API<br>
+<br>
+* JavaScript（HTML，CSS）<br>
+WinJS，DOM API，WinRT　　　　　　　　
 
 --
 
 ## 開発環境
+<br>
+## Windows 8.1
+＋
+## Visual Studio 2013
 
 ---
 
